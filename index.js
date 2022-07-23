@@ -15,7 +15,7 @@
     https://alexchristianqr.github.io/foryou
     https://alexchristianqr.github.io/portfolio
     */
-    let srcOrigin = 'https://alexchristianqr.github.io/portfolio'
+    let srcOrigin = 'https://www.entel.pe/'
     const uri = window.location.href
     const arrayLocations = uri.split('?')
     if (!arrayLocations[1]) return srcOrigin
