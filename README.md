@@ -3,5 +3,5 @@ Plantilla para montar un sitio web personalizado por un campo "?src=[mi sitio we
 
 ## Deploy with GitHub Pages
 ```
-git push origin gh-pages
+git push -f git@github.com:alexchristianqr/iframephone.git master:gh-pages
 ```
