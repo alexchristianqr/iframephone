@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+/* Estilos basicos */
+.phone {
+    border: 40px solid #090a0d;
+    /*border: 40px solid #dddddd;*/
+    border-width: 55px 7px;
+    border-radius: 40px;
+    margin: 20px auto;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    width: 400px;
+    height: 710px;
+}
+
+.phone iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.phone.templateView3 {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
