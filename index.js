@@ -6,6 +6,11 @@
   const iframe = document.querySelector('iframe')
   iframe.setAttribute('src', sourceOrigin)
 
+  const linkTo = document.getElementById('linkToWebsite')
+  linkTo.setAttribute('href', sourceOrigin)
+  linkTo.setAttribute('target', '_blank') // _self | _blank
+  // linkTo.innerHTML = 'sitio web principal'
+
   /**
    * Funcion para validar el recurso del sitio web a cargar
    * @returns {string}
