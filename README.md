@@ -3,6 +3,6 @@ Plantilla para montar un sitio web personalizado por un campo "?src=[mi sitio we
 
 ## Deploy with GitHub Pages
 ```
-git push origin master
-git push -f git@github.com:alexchristianqr/iframephone.git master:gh-pages
+git push origin main
+git push -f git@github.com:alexchristianqr/iframephone.git main:gh-pages
 ```
